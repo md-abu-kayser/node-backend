@@ -1,10 +1,12 @@
 import mongoose from "mongoose";
 import { MongoMemoryServer } from "mongodb-memory-server";
+import { afterAll, beforeAll } from "vitest";
+import { afterEach } from "node:test";
 
 let mongoServer: MongoMemoryServer;
 
 beforeAll(async () => {
-  mongoServer = await MongoMemoryServer.create();
+  mongoServer = await MongoMemoryServer.creat();
   const uri = mongoServer.getUri();
   await mongoose.connect(uri);
 });

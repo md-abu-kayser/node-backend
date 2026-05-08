@@ -1,6 +1,6 @@
 import { buildApp } from "../src/server";
 import supertest from "supertest";
-import { describe, it, expect } from "vitest";
+import { describe, it, expect, beforeAll, afterAll } from "vitest";
 
 describe("Auth routes", () => {
   let app: any;
