@@ -7,7 +7,9 @@ export async function connectDB(app: FastifyInstance) {
     await mongoose.connect(env.MONGO_URI);
     app.log.info("MongoDB connected");
   } catch (err) {
-    app.log.error("MongoDB connection error:", err);
+    const error = err instanceof Error ? err : new Error(String(err));
+
+    app.log.error(error);
     process.exit(1);
   }
 }
