@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/md-abu-kayser/node-backend/issues"
   },
-  "homepage": "https://github.com/md-abu-kayser/node-backend#readme"
+  "homepage": "https://github.com/md-abu-kayser/node-backend#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.6.1"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
 }
