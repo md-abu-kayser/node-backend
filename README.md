@@ -4,6 +4,10 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
 
+<!-- Languages -->
+
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178c6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/docs/)
+
 <!-- Infra & Runtime -->
 
 [![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
@@ -12,6 +16,33 @@
 
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 
+<!-- npm / auth / utility -->
+
+[![bcrypt](https://img.shields.io/badge/bcrypt-3.0.0-lightgrey)](https://www.npmjs.com/package/bcrypt)
+[![cors](https://img.shields.io/badge/cors-2.8.5-lightgrey)](https://www.npmjs.com/package/cors)
+[![jsonwebtoken](https://img.shields.io/badge/jsonwebtoken-8.5.1-lightgrey)](https://www.npmjs.com/package/jsonwebtoken)
+
+<!-- security headers -->
+
+[![helmet](https://img.shields.io/badge/helmet-npm-0F172A?logo=shield&logoColor=white)](https://www.npmjs.com/package/helmet)
+
+<!-- Containers & Orchestration -->
+
+[![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)](https://www.docker.com/)
+[![Docker Compose](https://img.shields.io/badge/Docker_Compose-2496ED?logo=docker&logoColor=white)](https://docs.docker.com/compose/)
+
+<!-- Validation -->
+
+[![Zod](https://img.shields.io/badge/Validation-Zod-6C63FF?logo=typescript&logoColor=white)](https://zod.dev/)
+[![zod on npm](https://img.shields.io/npm/v/zod?label=npm%20v&logo=npm&logoColor=white)](https://www.npmjs.com/package/zod)
+
+<!-- API & Docs -->
+
+[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?logo=swagger&logoColor=black)](https://swagger.io/)
+
+<!-- Testing -->
+
+[![Vitest](https://img.shields.io/badge/Vitest-6E00FF?logo=vitest&logoColor=white)](https://vitest.dev/)
 A production-ready, TypeScript-powered Node.js backend built with Fastify, JWT authentication, MongoDB, Swagger API docs, and clustered worker support.
 
 ## 🚀 Overview
