@@ -38,7 +38,7 @@ The codebase is organized into clear modules:
 
 ## 📦 Tech Stack
 
-- Node.js 20
+- Node.js 20+
 - TypeScript 6
 - Fastify 5
 - MongoDB + Mongoose
@@ -188,6 +188,21 @@ src/
     jwt.ts
 ```
 
-## 📜 License
+### License
 
-This project is licensed under the ISC License.
+- This project is licensed under the terms of the **[MIT License](./LICENSE)**.
+- You may replace or update the license as needed for client or proprietary projects.
+
+---
+
+### Contact and Maintainer
+
+- **Name:** Md Abu Kayser
+- **Project:** _node-backend_
+- **Maintainer:** [md-abu-kayser](https://github.com/md-abu-kayser)
+- **Email:** [abu.kayser.official@gmail.com](mailto:abu.kayser.official@gmail.com)
+- **GitHub:** [github.com/abu.kayser-official](https://github.com/md-abu-kayser)
+
+If you’d like this README tailored for a specific purpose - such as **hiring managers**, **open-source contributors**, or **client deliverables** - feel free to request a custom tone or format.
+
+---
