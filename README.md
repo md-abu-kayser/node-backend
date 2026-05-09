@@ -1,5 +1,17 @@
 # Node Backend
 
+<!-- MIT License -->
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](./LICENSE)
+
+<!-- Infra & Runtime -->
+
+[![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
+
+<!-- Databases -->
+
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)](https://www.mongodb.com/)
+
 A production-ready, TypeScript-powered Node.js backend built with Fastify, JWT authentication, MongoDB, Swagger API docs, and clustered worker support.
 
 ## 🚀 Overview
